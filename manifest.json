@@ -23,6 +23,20 @@
       "matches": ["*://*/*"],
       "js": ["radblock.js"]
     }
+  ],
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon-48.png",
+    "default_title": "radblock",
+    "default_popup": "radblock.html"
+  },
+
+  "web_accessible_resources": [
+    "icons/icon-48.png"
   ]
 }
 
