@@ -1,0 +1,28 @@
+{
+  "name": "radblock",
+  "version": "0.1",
+  "manifest_version": 2,
+
+  "description": "Radblock!",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "radblock@radblock.xyz",
+      "strict_min_version": "42.0",
+      "strict_max_version": "50.*",
+      "update_url": "https://update-plugin.radblock.xyz"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["radblock.js"]
+    }
+  ]
+}
+
