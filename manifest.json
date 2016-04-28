@@ -26,7 +26,11 @@
   ],
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "http://gifs.radblock.xyz/",
+    "https://gifs.radblock.xyz/",
+    "http://list.radblock.xyz/",
+    "https://list.radblock.xyz/"
   ],
 
   "browser_action": {
